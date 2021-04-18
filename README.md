@@ -28,3 +28,14 @@ automatically using GitHub Actions after each push update.
 ```
 tox
 ```
+
+## Tools used
+
+- [tox automation project](https://tox.readthedocs.io/en/latest/index.html)
+- [pytest](https://docs.pytest.org/en/latest/)
+  - pytest-dev/pytest-mock
+  - pytest-dev/pytest-cov
+- [coverage](https://coverage.readthedocs.io/en/latest/)
+- [flake8](https://flake8.pycqa.org/en/latest/)
+- [mypy](https://mypy.readthedocs.io/en/stable/)
+- ymyzk/tox-gh-actions
