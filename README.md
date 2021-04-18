@@ -19,6 +19,10 @@ Install [tox](https://tox.readthedocs.io/en/latest/install.html) e.g.:
 python -m pip install tox
 ```
 
+Optionally you may also copy the [.github](.github) directory (or the
+[test.yml]( .github/workflows/test.yml) workflow specifically) to run the test suite
+automatically using GitHub Actions after each push update.
+
 ## Usage
 
 ```
