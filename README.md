@@ -20,7 +20,6 @@ Copy [tox.ini](tox.ini) into your Django project's root directory. Edit:
 - The `envlist` to be more restrictive as the default configuration will test
 every valid version combination of Python 3 and Django.
 - The [`skipsdist` option](tox.ini#L2), if needed.
-- The [`requirements.txt` inclusion](tox.ini#L38), if needed.
 
 ## Usage
 
