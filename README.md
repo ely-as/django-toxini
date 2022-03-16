@@ -74,11 +74,18 @@ A flake8, mypy or black testenv can be generated using:
 
 These may also be combined with a Python version e.g. `py36-flake8`.
 
-## GitHub Actions
+## Continuous Integration
 
-Optionally you may also copy the [.github](.github) directory (or the
+### GitHub Actions
+
+You may wish to copy and adapt the [.github](.github) directory (or the
 [test.yml]( .github/workflows/test.yml) workflow specifically) to run the test
 suite automatically using GitHub Actions after each push update.
+
+### GitLab CI/CD
+
+You may wish to copy and adapt the [.gitlab-ci.yml](.gitlab-ci.yml) file to run
+the test suite automatically using GitLab CI/CD after each push update.
 
 ## Tools used
 
