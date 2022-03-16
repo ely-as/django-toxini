@@ -5,7 +5,10 @@ repository to handle test running so you can start writing tests straight away.
 
 Runs:
 - [pytest](https://docs.pytest.org/en/latest/) for unit tests with
-  [coverage](https://coverage.readthedocs.io/en/latest/).
+  [coverage](https://coverage.readthedocs.io/en/latest/). pytest's
+  [django](https://github.com/pytest-dev/pytest-django/) and
+  [mock](https://github.com/pytest-dev/pytest-mock/) plugins are included by
+  default.
 - [flake8](https://flake8.pycqa.org/en/latest/) for linting.
 - [mypy](https://mypy.readthedocs.io/en/stable/) for static type checking.
 
@@ -81,8 +84,9 @@ suite automatically using GitHub Actions after each push update.
 
 - [tox automation project](https://tox.readthedocs.io/en/latest/index.html)
 - [pytest](https://docs.pytest.org/en/latest/)
-  - [pytest-dev/pytest-mock](https://github.com/pytest-dev/pytest-mock/)
   - [pytest-dev/pytest-cov](https://github.com/pytest-dev/pytest-cov)
+  - [pytest-dev/pytest-django](https://github.com/pytest-dev/pytest-django/)
+  - [pytest-dev/pytest-mock](https://github.com/pytest-dev/pytest-mock/)
 - [coverage](https://coverage.readthedocs.io/en/latest/)
 - [flake8](https://flake8.pycqa.org/en/latest/)
 - [mypy](https://mypy.readthedocs.io/en/stable/)
