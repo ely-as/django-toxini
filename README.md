@@ -1,7 +1,8 @@
 # django-toxini
 
-Boilerplate tox.ini file for Django projects. Drop a single file into your
-repository to handle test running so you can start writing tests straight away.
+Boilerplate [tox.ini](tox.ini) file for Django projects. Drop a single
+pre-configured file into your repository to handle test running so you can start
+writing tests straight away.
 
 Runs:
 - [pytest](https://docs.pytest.org/en/latest/) for unit tests with
@@ -80,7 +81,10 @@ These may also be combined with a Python version e.g. `py36-flake8`.
 
 You may wish to copy and adapt the [.github](.github) directory (or the
 [test.yml]( .github/workflows/test.yml) workflow specifically) to run the test
-suite automatically using GitHub Actions after each push update.
+suite automatically using GitHub Actions after each push update. See the
+documentation for
+[ymyzk/tox-gh-actions](https://github.com/ymyzk/tox-gh-actions) for more
+information on configuration.
 
 ### GitLab CI/CD
 
