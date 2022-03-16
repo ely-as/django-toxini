@@ -18,6 +18,7 @@ python -m pip install tox
 
 Copy [tox.ini](tox.ini) into your Django project's root directory. Edit:
 - The [`skipsdist` option](tox.ini#L2), if needed.
+- The [`isolated_build` option](tox.ini#L4), if needed.
 - The `envlist`, if needed. See the [available testenv's](#available-testenvs).
 
 ## Usage
