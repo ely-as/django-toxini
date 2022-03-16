@@ -9,6 +9,10 @@ Runs:
 - [flake8](https://flake8.pycqa.org/en/latest/) for linting.
 - [mypy](https://mypy.readthedocs.io/en/stable/) for static type checking.
 
+Supports:
+- [black](https://black.readthedocs.io/en/stable/) for code formatting
+  (runs check only).
+
 ## Installation
 
 Install [tox](https://tox.readthedocs.io/en/latest/install.html) e.g.:
@@ -60,9 +64,10 @@ py39-django{22,30,31,32,40}-pytest
 py310-django{32,40}-pytest
 ```
 
-A flake8 or mypy testenv can be generated using:
+A flake8, mypy or black testenv can be generated using:
 - `flake8`
 - `mypy`
+- `black`
 
 These may also be combined with a Python version e.g. `py36-flake8`.
 
@@ -81,4 +86,5 @@ suite automatically using GitHub Actions after each push update.
 - [coverage](https://coverage.readthedocs.io/en/latest/)
 - [flake8](https://flake8.pycqa.org/en/latest/)
 - [mypy](https://mypy.readthedocs.io/en/stable/)
+- [black](https://black.readthedocs.io/en/stable/)
 - [ymyzk/tox-gh-actions](https://github.com/ymyzk/tox-gh-actions)
